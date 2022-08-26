@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022
 {
-    internal class testarea
+    internal class TestEmployee
     {
         public static void Main()
         {
-            Circle c = new Circle(45);
-           
-            Console.WriteLine($"area of the circle{c.GetArea}");
+            Employee e = new Employee(222, "Chaitra", "Banglore", 560055, 9685369875, 300000, 1800);
+            Console.WriteLine($"Your Grade is {e.GetEmpGrade()}");
         }
     }
 }
