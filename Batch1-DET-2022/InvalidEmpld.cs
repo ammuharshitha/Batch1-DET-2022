@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022
 {
-    internal class course
+    public class InvalidEmpld:Exception
     {
+        public InvalidEmpld(string msg):base(msg)
+        {
+
+        }
+
+
     }
 }
