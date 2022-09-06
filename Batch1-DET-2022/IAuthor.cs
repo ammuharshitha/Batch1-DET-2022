@@ -32,6 +32,11 @@ namespace Batch1_DET_2022
         {
             return $"{Name} subscribed SMS notifications";
         }
+
+        public static implicit operator Author(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     class SITLAuthor : Author, IEMail
